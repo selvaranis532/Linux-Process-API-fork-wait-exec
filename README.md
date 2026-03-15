@@ -43,7 +43,7 @@ int main()
 
 ```
 
-##OUTPUT
+## OUTPUT
 
 
 
@@ -55,32 +55,36 @@ int main()
 
 ## C Program to execute Linux system commands using Linux API system calls exec() , exit() , wait() family
 
+```
+#include <stdio.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/wait.h>
 
+int main()
+{
+    pid_t pid;
 
+    pid = fork();
 
+    if(pid == 0)
+    {
+        printf("Child process executing ls command\n");
+        execl("/bin/ls","ls",NULL);
+    }
+    else
+    {
+        wait(NULL);
+        printf("Parent process finished\n");
+    }
 
+    return 0;
+}
 
+```
 
+## OUTPUT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-##OUTPUT
 
 
 

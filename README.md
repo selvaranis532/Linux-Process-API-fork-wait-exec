@@ -46,6 +46,7 @@ int main()
 ## OUTPUT
 
 
+<img width="787" height="236" alt="Screenshot 2026-03-15 135651" src="https://github.com/user-attachments/assets/bcaa9f8a-8969-4d31-a4fe-13f986b188e8" />
 
 
 
@@ -85,20 +86,7 @@ int main()
 
 ## OUTPUT
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="742" height="251" alt="Screenshot 2026-03-15 135808" src="https://github.com/user-attachments/assets/58cd0474-aaa8-44ed-afe0-bf54a35c15e2" />
 
 
 
